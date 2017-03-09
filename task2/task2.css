@@ -1,0 +1,110 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	margin:0;
+	padding:0;
+	font-family:"微软雅黑";
+}
+#wrap{
+	width:1100px;
+	margin:0 auto;
+	background-color:#E8E8E8;
+}
+#header{
+	width:100%;
+	background-color:#313131;
+	margin-bottom:25px;
+}
+#header h1{
+	color:#FFF;
+	text-align:center;
+	line-height:60px;
+}
+#mainbody{
+	width:100%;
+}
+.content,.technology,.website,.question{
+	width:1050px;;
+	border:1px solid #CCC;
+	margin:0px auto;
+	background-color:#FFF;
+	padding-left:20px;
+	margin-bottom:25px;
+}
+h2{
+	margin:30px 0 15px 0;
+}
+.content p{
+	text-indent:2em;
+	line-height:35px;
+}
+.list{
+	margin-left:25px;
+}
+.desk{
+	width:1030px;
+	margin:5px 0;
+	border-left:1px solid #999;
+	border-top:1px solid #999;
+	line-height:28px;
+}
+.desk th,.desk td{
+	width:30%;
+	padding-left:5px;
+	border-right:1px solid #999;
+	border-bottom:1px solid #999;
+}
+.desk th{
+	background-color:#313131;
+	color:#FFF;
+}
+.pic{
+	text-align:center;
+}
+.technology p,.question p{
+	line-height:35px;
+}
+.technology li{
+	line-height:35px;
+}
+.website li{
+	line-height:35px;
+	margin-left:20px;
+}
+form{
+	margin-left:200px;
+}
+label{
+	display:inline-block;
+	line-height:35px;
+	width:70px;
+	text-align:right;
+	margin-right:20px;
+}
+.bac_pic{
+  background:url(http://segmentfault.com/img/bVclUw)no-repeat;
+  background-position:center;
+}
+span{
+	vertical-align:top;
+	margin-right:20px;
+}
+.sub{
+	width:350px;
+	height:40px;
+	background-color:#06F;
+	border-radius:10px;
+	margin:15px 0;
+	color:#FFF;
+	font-size:16px;
+	font-weight:bold;
+}
+#footer{
+	width:100%;
+	background-color:#313131;
+}
+#footer p{
+	color:#FFF;
+	text-align:center;
+	line-height:60px;
+}

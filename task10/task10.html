@@ -1,0 +1,57 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>flex布局</title>
+<style>
+*{
+	margin:0;
+	padding:0;
+}
+body{
+	padding:20px;
+	display:flex;
+	justify-content:space-between;
+	align-items:center;
+}
+div[class^=box]{
+	width:150px
+}
+.box1,.box2,.box3{
+	border:1px solid #f00;
+}
+.box1{
+	height:120px;
+}
+.box2{
+	height:100px;
+}
+.box3{
+	height:40px;
+}
+.box4{
+	border:1px solid #0f0;
+	height:200px;
+}
+@media (max-width:640px){
+	body{
+		display:flex;
+		align-items:flex-start;
+		flex-wrap:wrap;
+	}
+	div[class^=box]{
+	    margin-bottom:20px;
+    }
+	.box4{
+		order:-1;
+	}
+}
+</style>
+</head>
+<body>
+    <div class="box1"></div>
+    <div class="box2"></div>
+    <div class="box3"></div>
+    <div class="box4"></div>
+</body>
+</html>

@@ -1,0 +1,44 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "微软雅黑";
+}
+
+#box1{
+	position: relative;
+	left: 50%;
+	transform: translate(-50%);
+	height: 200px;
+	width: 50%;
+	margin-top: 100px;
+}
+
+div {
+	display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: #fff;
+    width: 45%;
+    height: 80%;
+    border: 2px solid #000;
+}
+
+section {
+	display: flex;
+    justify-content: center;
+	margin-top: 50px;
+}
+
+button {
+	width: 100px;
+	height: 35px;
+	background-color: #fff;
+	border: 2px solid #000;
+	margin: 0 10px;
+}
+
+button:hover,button:focus {
+	color: #fff;
+	background-color: blue;
+}
